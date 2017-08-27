@@ -14,7 +14,7 @@ Main files to look for are `src/components/form/ContactForm.vue` and `src/compon
 
 ## Installing Dev
 
-Getting dependencies:
+Get dependencies:
 
 ```bash
 $ npm install
@@ -30,5 +30,5 @@ $ npm run dev
 
 - [Webpack](https://github.com/webpack/webpack) as the task runner. It handles the downgrading of ES6, module bundling, local server, watching changes in files, scss compilation,  ... just to name a few.
 - [Axios](https://github.com/mzabriskie/axios) as the HTTP client (it is the official recommendation from Vue)
-- [axios-mock-adapter](https://github.com/ctimmerm/axios-mock-adapter) replicating a communication with a server. Code found in `src/main.js`. It has (intentionally) a 0.9sec delay to simulate a real server communication.
+- [axios-mock-adapter](https://github.com/ctimmerm/axios-mock-adapter) replicating a communication with a server. Code found in `src/main.js`. It has (intentionally) a 0.9 sec delay to simulate a real server communication.
 - [homer_admin-v2.0](http://webapplayers.com/homer_admin-v2.0/light-shadow/panels.html) I've tried to replicate the design by adding their css file, also using Bootstrap and some tweaking
